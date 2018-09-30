@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1584160209176984}
+  m_IsPrefabAsset: 1
+--- !u!1 &1584160209176984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4066357357875766}
+  - component: {fileID: 114008923777723558}
+  - component: {fileID: 114647451804494974}
+  m_Layer: 0
+  m_Name: Master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4066357357875766
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1584160209176984}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!114 &114008923777723558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1584160209176984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ae0773bc187e84797c53347847c909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 1487047147749436, guid: fe807268d0bd8864f99ff2a0f6ab1aa5, type: 2}
+  AOE: {fileID: 1160563639714576, guid: f5c51421a577f774eb8ea5991c418d36, type: 2}
+  input_direction_1: {x: 0, y: 0}
+  input_direction_2: {x: 0, y: 0}
+  player1: {fileID: 0}
+  player2: {fileID: 0}
+  ui: {fileID: 0}
+--- !u!114 &114647451804494974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1584160209176984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3caf5ae3dfe0eda41a5e436570d45a4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orb_sprites:
+  - {fileID: 21300000, guid: e20876d95d60d5b4cb2f967cce2525a8, type: 3}
+  - {fileID: 21300000, guid: 4a0aef869af4dda4b9bf0eea1c6b8bf0, type: 3}
+  - {fileID: 21300000, guid: 6e1f850683761ac45ba797092f08b30c, type: 3}
+  - {fileID: 21300000, guid: 2db82ba85b887fc4fba81c3362e74096, type: 3}
+  images:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  health_bars:
+  - {fileID: 0}
+  - {fileID: 0}
+  mana_bars:
+  - {fileID: 0}
+  - {fileID: 0}
+  mr_goose: {fileID: 0}
