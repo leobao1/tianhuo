@@ -356,11 +356,11 @@ public class main : MonoBehaviour {
             {
                 if (player2.GetMana() >= COST_MED)
                 {
-                    SpellProjectile newProj = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, 0), player2.GetPosition(), projectile, player1, 0,
+                    SpellProjectile newProj = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, 0), player2.GetPosition(), projectile, player2, 0,
                                                                             COST_MED);
-                    SpellProjectile newProj1 = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, 0.1f), player2.GetPosition(), projectile, player1, 0,
+                    SpellProjectile newProj1 = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, 0.1f), player2.GetPosition(), projectile, player2, 0,
                                                                                 0);
-                    SpellProjectile newProj2 = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, -0.1f), player2.GetPosition(), projectile, player1, 0,
+                    SpellProjectile newProj2 = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, -0.1f), player2.GetPosition(), projectile, player2, 0,
                                                                                 0);
                 }
 
@@ -406,15 +406,15 @@ public class main : MonoBehaviour {
             {
                 if (player2.GetMana() >= COST_LARGE)
                 {
-                    SpellProjectile newProj = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, 0), player2.GetPosition(), projectile, player1, 0,
+                    SpellProjectile newProj = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, 0), player2.GetPosition(), projectile, player2, 0,
                                                                             COST_LARGE);
-                    SpellProjectile newProj1 = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, 0.1f), player2.GetPosition(), projectile, player1, 0,
+                    SpellProjectile newProj1 = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, 0.1f), player2.GetPosition(), projectile, player2, 0,
                                                                                 0);
-                    SpellProjectile newProj2 = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, -0.1f), player2.GetPosition(), projectile, player1, 0,
+                    SpellProjectile newProj2 = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, -0.1f), player2.GetPosition(), projectile, player2, 0,
                                                                                 0);
-                    SpellProjectile newProj3 = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, 0.05f), player2.GetPosition(), projectile, player1, 0,
+                    SpellProjectile newProj3 = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, 0.05f), player2.GetPosition(), projectile, player2, 0,
                                                                                 0);
-                    SpellProjectile newProj4 = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, -0.05f), player2.GetPosition(), projectile, player1, 0,
+                    SpellProjectile newProj4 = new SpellProjectile(10, player2.GetProjectileSpeed(), new Vector3(p2Dir * 1, -0.05f), player2.GetPosition(), projectile, player2, 0,
                                                                                 0);
                 }
 
